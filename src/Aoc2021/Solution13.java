@@ -18,8 +18,26 @@ public class Solution13 {
 
     public void execute() throws FileNotFoundException {
         getInput();
+        int iteration=0;
         for(Fold fold : folds) {
             applyFold(fold);
+            System.out.println("Iteration: " + ++iteration + " length: " + dots.size());
+        }
+        int maxX=0;
+        int maxY=0;
+        for(Dot dot : dots) {
+            maxX=Integer.max(maxX, dot.x);
+            maxY=Integer.max(maxY, dot.y);
+        }
+        for(int i=0;i<=maxY;i++) {
+            for(int j=0;j<=maxX;j++) {
+                if (dots.contains(new Dot(j,i))) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("");
         }
         System.out.println("Total score: " + 0);
     }
@@ -41,7 +59,7 @@ public class Solution13 {
     }
 
     private void getInput() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new FileInputStream("/Users/marc.salles/workspace/adventofcode/resources/input13test.txt"));
+        Scanner scanner = new Scanner(new FileInputStream("/Users/marc/workspace/adventofcode/resources/input13.txt"));
         while(scanner.hasNextLine()) {
             String line = scanner.nextLine().trim();
             Matcher lineMatcher = lineRegex.matcher(line);
