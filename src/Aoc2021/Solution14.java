@@ -20,11 +20,34 @@ public class Solution14 {
 
     public void execute() throws FileNotFoundException {
         getInput();
-        for(int step=0;step<10;step++) {
+        for(int step=0;step<40;step++) {
             executeStep();
         }
-        System.out.println("Total score: " + 0);
+        int maxCount = 0;
+        int minCount = Integer.MAX_VALUE;
+        Character max = null;
+        Character min = null;
+        Map<Character,Integer> counts = countElements();
+        for(Character c : counts.keySet()) {
+            int count = counts.get(c);
+            if (count > maxCount) {
+                maxCount = count;
+            }
+            if (count < minCount) {
+                minCount = count;
+            }
+        }
+        System.out.println("Total score: " + (maxCount - minCount));
     }
+
+    private Map<Character, Integer> countElements() {
+        Map<Character, Integer> counts = new HashMap<>();
+        for(Character c : polymer) {
+            counts.put(c, counts.getOrDefault(c,0)+1);
+        }
+        return counts;
+    }
+
     private void executeStep() {
         int i=0;
         List<Character> output = new ArrayList<>();
@@ -48,7 +71,7 @@ public class Solution14 {
     }
 
     private void getInput() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new FileInputStream("/Users/marc.salles/workspace/adventofcode/resources/input14test.txt"));
+        Scanner scanner = new Scanner(new FileInputStream("/Users/marc/workspace/adventofcode/resources/input14test.txt"));
         String polymerTemplate = scanner.nextLine().trim();
         for(Character c : polymerTemplate.toCharArray()) {
             polymer.add(c);
