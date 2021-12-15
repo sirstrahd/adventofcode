@@ -19,6 +19,7 @@ public class Solution15 {
 
     public void execute() throws FileNotFoundException {
         map = getInput();
+        draw();
         boolean somethingChanged = true;
         map[sizeX-1][sizeY-1].minRemainingCost = map[sizeX-1][sizeY-1].stepInCost;
         while(somethingChanged) {
@@ -34,6 +35,15 @@ public class Solution15 {
             }
         }
         System.out.println("Total score: " + (map[0][0].minRemainingCost - map[0][0].stepInCost));
+    }
+
+    private void draw() {
+        for(int i=0;i<sizeX;i++) {
+            for(int j=0;j<sizeY;j++) {
+                System.out.print(map[i][j].stepInCost);
+            }
+            System.out.println("");
+        }
     }
 
     private int getMinCostFromNeighbours(int i, int j) {
@@ -63,7 +73,7 @@ public class Solution15 {
         scanner.close();
         sizeY=inputs.size();
         sizeX=inputs.get(0).length();
-        Node[][] map = new Node[sizeY][sizeX];
+        Node[][] map = new Node[5*sizeY][5*sizeX];
         int i=0;
         for(String input : inputs) {
             int j=0;
@@ -73,6 +83,25 @@ public class Solution15 {
             }
             i++;
         }
+        for(i=0;i<5;i++) {
+            for(int j=0;j<5;j++) {
+                if (i==0 && j==0) {
+                    continue;
+                }
+                for(int a=0;a<sizeX;a++) {
+                    for(int b=0;b<sizeY;b++) {
+                        int increase = i+j;
+                        int cost = map[a][b].stepInCost + increase;
+                        if (cost >= 10) {
+                            cost-=9;
+                        }
+                        map[i*sizeY+a][j*sizeX+b] = new Node(cost);
+                    }
+                }
+            }
+        }
+        sizeX = 5*sizeX;
+        sizeY = 5*sizeY;
         return map;
     }
 
