@@ -20,7 +20,7 @@ public class Solution14 {
 
     public void execute() throws FileNotFoundException {
         getInput();
-        for(int step=0;step<40;step++) {
+        for(int step=0;step<10;step++) {
             executeStep();
         }
         int maxCount = 0;
