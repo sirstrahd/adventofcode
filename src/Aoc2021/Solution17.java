@@ -4,10 +4,7 @@ package Aoc2021;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,7 +22,7 @@ public class Solution17 {
         solution.execute();
     }
 
-    public void execute() throws FileNotFoundException {
+    public Set<Dot> execute() throws FileNotFoundException {
         getInput();
 
         int absY = Math.abs(botY) - 1;
@@ -33,7 +30,28 @@ public class Solution17 {
 
         System.out.println("Max Y:" + result);
 
-
+        Set<Dot> results = new HashSet<>();
+        for(int ySpeedTest = botY; ySpeedTest<=-botY;ySpeedTest++) {
+            for(int xSpeedTest = 1;xSpeedTest<=rightX;xSpeedTest++) {
+                int x=0;
+                int y=0;
+                int ySpeed = ySpeedTest;
+                int xSpeed = xSpeedTest;
+                while(x<=rightX && y>=botY) {
+                    if (x>=leftX && y<=topY) {
+                        results.add(new Dot(xSpeedTest,ySpeedTest));
+                    }
+                    x+=xSpeed;
+                    y+=ySpeed;
+                    ySpeed--;
+                    if (xSpeed != 0) {
+                        xSpeed--;
+                    }
+                }
+            }
+        }
+        System.out.println("Amount of solutions: " + results.size());
+        return results;
     }
 
     private void getInput() throws FileNotFoundException {
@@ -59,6 +77,20 @@ public class Solution17 {
         public Dot(int x, int y) {
             this.x=x;
             this.y=y;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Dot dot = (Dot) o;
+            return x == dot.x &&
+                    y == dot.y;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(x, y);
         }
     }
 
