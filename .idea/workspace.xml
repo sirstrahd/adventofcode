@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/input18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input18test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input18test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input18test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input18test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input19test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input19testsimple.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2021/Solution18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2021/Solution18b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2021/Solution19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aoc2021/Solution17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aoc2021/Solution17.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,51 +27,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution17.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+            <state relative-caret-position="22185">
+              <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3166">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2773#2774#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+            <state relative-caret-position="131">
+              <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution14.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="91" column="24" lean-forward="true" selection-start-line="73" selection-end-line="91" selection-end-column="24" />
+            <state relative-caret-position="690">
+              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input17test.txt">
+        <entry file="file://$PROJECT_DIR$/resources/input19test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="795">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input17.txt">
+        <entry file="file://$PROJECT_DIR$/resources/input19.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-end-column="36" />
+            <state relative-caret-position="15045">
+              <caret line="1003" column="14" selection-start-line="1003" selection-start-column="14" selection-end-line="1003" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/input19testsimple.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -77,14 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>currentIndex</find>
-      <find>Solution23b</find>
-      <find>min</find>
-      <find>max</find>
-      <find>printCups</find>
-      <find>addAfter</find>
-      <find>removeAndGetNextThree</find>
-      <find>performArt</find>
       <find>convertToNumber</find>
       <find>calculatePoints</find>
       <find>getWithLength</find>
@@ -107,6 +126,14 @@
       <find>LiteralResult</find>
       <find>positionAfterSteps</find>
       <find>calcMinVx</find>
+      <find>nesting</find>
+      <find>getInput</find>
+      <find>checkScanner2Position</find>
+      <find>Counter</find>
+      <find>Found a ma</find>
+      <find>hasEnoughCommonPoints</find>
+      <find>findOverlap</find>
+      <find>placeInSameMap</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -118,17 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Aoc2021/Solution4b.java" />
-        <option value="$PROJECT_DIR$/resources/input5test.txt" />
-        <option value="$PROJECT_DIR$/resources/input5.txt" />
-        <option value="$PROJECT_DIR$/src/Aoc2021/Solution5.java" />
-        <option value="$PROJECT_DIR$/resources/input6test.txt" />
-        <option value="$PROJECT_DIR$/resources/input6.txt" />
-        <option value="$PROJECT_DIR$/src/Aoc2021/Solution1.java" />
-        <option value="$PROJECT_DIR$/src/Aoc2021/Solution6.java" />
-        <option value="$PROJECT_DIR$/src/Aoc2021/Solution6b.java" />
-        <option value="$PROJECT_DIR$/resources/input7.txt" />
-        <option value="$PROJECT_DIR$/resources/input7test.txt" />
         <option value="$PROJECT_DIR$/src/Aoc2021/Solution7b.java" />
         <option value="$PROJECT_DIR$/src/Aoc2021/Solution7.java" />
         <option value="$PROJECT_DIR$/resources/input8test2.txt" />
@@ -169,6 +185,17 @@
         <option value="$PROJECT_DIR$/resources/input17.txt" />
         <option value="$PROJECT_DIR$/resources/input17test.txt" />
         <option value="$PROJECT_DIR$/src/Aoc2021/Solution17.java" />
+        <option value="$PROJECT_DIR$/resources/input18.txt" />
+        <option value="$PROJECT_DIR$/resources/input18test2.txt" />
+        <option value="$PROJECT_DIR$/resources/input18test3.txt" />
+        <option value="$PROJECT_DIR$/resources/input18test.txt" />
+        <option value="$PROJECT_DIR$/resources/input18test1.txt" />
+        <option value="$PROJECT_DIR$/src/Aoc2021/Solution18.java" />
+        <option value="$PROJECT_DIR$/src/Aoc2021/Solution18b.java" />
+        <option value="$PROJECT_DIR$/resources/input19.txt" />
+        <option value="$PROJECT_DIR$/resources/input19test.txt" />
+        <option value="$PROJECT_DIR$/resources/input19testsimple.txt" />
+        <option value="$PROJECT_DIR$/src/Aoc2021/Solution19.java" />
       </list>
     </option>
   </component>
@@ -217,8 +244,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -227,7 +254,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639774241411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640105689380" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -253,46 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution17">
-    <configuration name="Solution14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution14" />
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution14b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution14b" />
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution15" />
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution19">
     <configuration name="Solution16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution16" />
       <module name="adventofcode" />
@@ -319,13 +307,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution18" />
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution18b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution18b" />
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution19" />
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution19" />
+        <item itemvalue="Application.Solution18b" />
+        <item itemvalue="Application.Solution18" />
         <item itemvalue="Application.Solution17" />
         <item itemvalue="Application.Solution16" />
-        <item itemvalue="Application.Solution15" />
-        <item itemvalue="Application.Solution14b" />
-        <item itemvalue="Application.Solution14" />
       </list>
     </recent_temporary>
   </component>
@@ -343,11 +370,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="690" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.29644588" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.30613893" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.26323318" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,11 +392,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4341216" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38175675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25506756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32094595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293919" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -498,6 +534,12 @@
           <properties />
           <option name="timeStamp" value="189" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aoc2021/Solution18.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="60" />
@@ -603,113 +645,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/input7test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input7.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3924" selection-start-column="3924" selection-end-column="3924" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution7b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1468" selection-start-line="1468" selection-end-line="1468" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input8test2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="72" selection-start-column="72" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input8test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-end-line="9" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2985">
-          <caret line="199" column="81" selection-start-line="199" selection-start-column="81" selection-end-line="199" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input8test3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="61" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution8b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adventofcode.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="82" column="51" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input9test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution9b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#5099#5100#0" expanded="true" />
-            <element signature="e#5148#5149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input10test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input10.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="89" column="94" selection-start-line="89" selection-start-column="94" selection-end-line="89" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution10b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -931,22 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="91" column="24" lean-forward="true" selection-start-line="73" selection-end-line="91" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input17.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-end-column="36" />
+        <state relative-caret-position="1290">
+          <caret line="91" column="24" selection-start-line="73" selection-end-line="91" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -957,13 +878,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input17.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input18.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input18test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input18test3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input18test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input18test1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution18b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1913">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2374">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution17.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+        <state relative-caret-position="263">
+          <caret line="96" column="83" selection-start-line="96" selection-start-column="71" selection-end-line="96" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22185">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input19test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input19.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15045">
+          <caret line="1003" column="14" selection-start-line="1003" selection-start-column="14" selection-end-line="1003" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input19testsimple.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3166">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
