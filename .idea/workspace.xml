@@ -1,15 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/input22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/input22test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2021/Solution22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2021/Solution22b.java" afterDir="false" />
+    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Starting on 2022">
+      <change afterPath="$PROJECT_DIR$/resources/2022/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/InputParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input10test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input10test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input11test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input11test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input12test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input12test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input12test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input12test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input13test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input13test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input14test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input14test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input15test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input15test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input16test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input16test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input16test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input16test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input16test3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input16test3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input16test4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input16test4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input17test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input17test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input18test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input18test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input18test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input18test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input18test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input18test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input18test3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input18test3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input19test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input19test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input19testsimple.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input19testsimple.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input20test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input20test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input21test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input21test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input22test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input22test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input3test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input3test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input4test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input4test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input5test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input5test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input6test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input6test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input7test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input7test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input8test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input8test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input8test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input8test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input8test3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input8test3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input9test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/2021/input9test.txt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,26 +66,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Aoc2021/Solution22b.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="183" column="26" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7355#7356#0" expanded="true" />
-                <element signature="e#7464#7465#0" expanded="true" />
-                <element signature="e#6414#6415#0" expanded="true" />
-                <element signature="e#6476#6477#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,41 +225,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640382118858" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "E:/workspace/adventofcode"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\adventofcode\resources\2022" />
+      <recent name="E:\workspace\adventofcode\resources\2021" />
+      <recent name="E:\workspace\adventofcode" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Aoc2021" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Solution22b">
-    <configuration name="Solution20b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution20b" />
+  <component name="RunManager" selected="Application.Solution1">
+    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution1" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="PATTERN" value="Aoc2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution21" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution1" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="PATTERN" value="Aoc2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,15 +312,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="Application.Solution1 (1)" />
         <item itemvalue="Application.Solution22b" />
         <item itemvalue="Application.Solution22" />
         <item itemvalue="Application.Solution21b" />
-        <item itemvalue="Application.Solution21" />
-        <item itemvalue="Application.Solution20b" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -383,152 +403,137 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Starting on 2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting on 2022" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution18.java</url>
           <line>52</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution18b.java</url>
           <line>81</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution18b.java</url>
           <line>24</line>
-          <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution20.java</url>
           <line>243</line>
-          <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution20.java</url>
           <line>212</line>
-          <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution20.java</url>
           <line>145</line>
-          <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution21.java</url>
           <line>103</line>
-          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2020/Solution23.java</url>
           <line>73</line>
-          <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution4b.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution4b.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution6.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution9.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution9b.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution10b.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution10b.java</url>
           <line>55</line>
-          <properties />
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution14.java</url>
           <line>52</line>
-          <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution14b.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution16.java</url>
           <line>160</line>
-          <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution17.java</url>
           <line>53</line>
-          <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution17.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution18.java</url>
           <line>52</line>
-          <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution20.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution21b.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aoc2021/Solution22.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aoc2022/Solution1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="209" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
