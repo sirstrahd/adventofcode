@@ -13,7 +13,7 @@ public class Solution1 {
     }
 
     public void execute() throws Exception {
-        String[] input = InputParser.getLinesAsArrayListOfStrings("input1.txt");
+        String[] input = InputParser.getLinesAsArrayListOfStrings("resources/2022/input1.txt");
         ArrayList<ArrayList<String>> clusters = clusterify(input);
         long result = getMostCalories(clusters);
         System.out.println("The elf with the most calories has: " + result);
