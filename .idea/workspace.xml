@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Second one for 2022">
-      <change afterPath="$PROJECT_DIR$/resources/2022/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution2.java" afterDir="false" />
+    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Third and Fourth for 2022.">
+      <change afterPath="$PROJECT_DIR$/resources/2022/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/2022/input4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aoc2022/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aoc2022/Solution1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,21 +178,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/marcsallesnavarro/workspace/adventofcode",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Settings.JavaScript",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marcsallesnavarro/workspace/adventofcode/resources/2022&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/2022" />
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -200,24 +202,12 @@
       <recent name="E:\workspace\adventofcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Aoc2022" />
       <recent name="Aoc2021" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution1" />
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aoc2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution3">
     <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution2" />
       <module name="adventofcode" />
@@ -231,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution21b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution21b" />
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution3" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="PATTERN" value="Aoc2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution22" />
+    <configuration name="Solution4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution4" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="PATTERN" value="Aoc2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,12 +247,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution22b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2021.Solution22b" />
+    <configuration name="Solution4 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution4" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aoc2021.*" />
+          <option name="PATTERN" value="Aoc2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution4" />
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aoc2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,8 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution4" />
+        <item itemvalue="Application.Solution4 (2)" />
+        <item itemvalue="Application.Solution4 (1)" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +296,14 @@
       <updated>1608318913044</updated>
       <workItem from="1670015984985" duration="253000" />
     </task>
+    <task id="LOCAL-00001" summary="Second one for 2022">
+      <created>1670018641656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670018641656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -378,7 +392,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting on 2022" />
     <MESSAGE value="Second one for 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second one for 2022" />
+    <MESSAGE value="Third and Fourth for 2022." />
+    <option name="LAST_COMMIT_MESSAGE" value="Third and Fourth for 2022." />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
