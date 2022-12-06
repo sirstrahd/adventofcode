@@ -41,4 +41,16 @@ public class InputParser {
         }
         return result;
     }
+
+    public static List<Character> getAsListOfCharacters(String inputFilename) throws FileNotFoundException {
+        Scanner scanner = new Scanner(new FileInputStream(inputFilename));
+        List<Character> result = new ArrayList<>();
+        while(scanner.hasNextLine()) {
+            for(Character c : scanner.nextLine().toCharArray()) {
+                result.add(c);
+            }
+        }
+        scanner.close();
+        return result;
+    }
 }
