@@ -50,7 +50,7 @@ public class Solution4 {
         }
 
     public void execute() throws Exception {
-        List<Pair> pairs = Arrays.stream(InputParser.getLinesAsArrayListOfStrings("resources/2022/input4.txt")).map(this::getPairFromString).collect(Collectors.toList());
+        List<Pair> pairs = Arrays.stream(InputParser.getLinesAsArrayOfStrings("resources/2022/input4.txt")).map(this::getPairFromString).collect(Collectors.toList());
         part1(pairs);
         part2(pairs);
     }

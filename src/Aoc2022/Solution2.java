@@ -18,7 +18,7 @@ public class Solution2 {
         yourMoveScores.put('Z',3);
     }
     public void execute() throws Exception {
-        String[] moves = InputParser.getLinesAsArrayListOfStrings("resources/2022/input2.txt");
+        String[] moves = InputParser.getLinesAsArrayOfStrings("resources/2022/input2.txt");
         long totalScoreFirstPart = 0;
         long totalScoreSecondPart = 0;
         for(String move : moves) {

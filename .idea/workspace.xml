@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Third and Fourth for 2022.">
-      <change afterPath="$PROJECT_DIR$/resources/2022/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/2022/input4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Add 2022 solution 5">
+      <change afterPath="$PROJECT_DIR$/resources/2022/input5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aoc2022/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aoc2022/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aoc2022/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aoc2022/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aoc2022/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aoc2022/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aoc2022/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aoc2022/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Common/InputParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/InputParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,9 +209,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution3">
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution2" />
+  <component name="RunManager" selected="Application.Solution5">
+    <configuration name="Solution5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -221,8 +223,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution3" />
+    <configuration name="Solution5 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -234,8 +236,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution4" />
+    <configuration name="Solution5 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -247,8 +249,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution4 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution4" />
+    <configuration name="Solution5 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -260,8 +262,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution4" />
+    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -275,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution4" />
-        <item itemvalue="Application.Solution4 (2)" />
-        <item itemvalue="Application.Solution4 (1)" />
-        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution5" />
+        <item itemvalue="Application.Solution5 (1)" />
+        <item itemvalue="Application.Solution5 (5)" />
+        <item itemvalue="Application.Solution5 (4)" />
+        <item itemvalue="Application.Solution5 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670018641656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Third and Fourth for 2022.">
+      <created>1670160833119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670160833119</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add gitignore">
+      <created>1670160878163</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670160878164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -393,7 +409,20 @@
     <MESSAGE value="Starting on 2022" />
     <MESSAGE value="Second one for 2022" />
     <MESSAGE value="Third and Fourth for 2022." />
-    <option name="LAST_COMMIT_MESSAGE" value="Third and Fourth for 2022." />
+    <MESSAGE value="Add gitignore" />
+    <MESSAGE value="Add 2022 solution 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2022 solution 5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aoc2022/Solution5.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">

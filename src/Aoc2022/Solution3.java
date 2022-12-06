@@ -11,7 +11,7 @@ public class Solution3 {
     }
 
     public void execute() throws Exception {
-        String[] sacks = InputParser.getLinesAsArrayListOfStrings("resources/2022/input3.txt");
+        String[] sacks = InputParser.getLinesAsArrayOfStrings("resources/2022/input3.txt");
         firstPart(sacks);
         secondPart(sacks);
     }
