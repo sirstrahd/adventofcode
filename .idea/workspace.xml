@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Add 2022 solution 5">
-      <change afterPath="$PROJECT_DIR$/resources/2022/input6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/2022/input6test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution6.java" afterDir="false" />
+    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Add 2022 solution 7">
+      <change afterPath="$PROJECT_DIR$/resources/2022/input7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Common/InputParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/InputParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,21 +204,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution6">
+  <component name="RunManager" selected="Application.Solution7">
     <configuration name="Solution5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aoc2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution5 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
       <module name="adventofcode" />
       <extension name="coverage">
@@ -272,13 +257,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution7" />
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aoc2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.Solution6" />
         <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Solution5 (1)" />
         <item itemvalue="Application.Solution5 (5)" />
-        <item itemvalue="Application.Solution5 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670349142527</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add 2022 solution 6">
+      <created>1670350678637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670350678637</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -415,7 +420,9 @@
     <MESSAGE value="Third and Fourth for 2022." />
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="Add 2022 solution 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 2022 solution 5" />
+    <MESSAGE value="Add 2022 solution 6" />
+    <MESSAGE value="Add 2022 solution 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2022 solution 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,9 +433,9 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aoc2022/Solution6.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/Aoc2022/Solution7.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
