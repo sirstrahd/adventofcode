@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Add 2022 solution 10">
-      <change afterPath="$PROJECT_DIR$/resources/2022/input10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/2022/input10test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/2022/input10test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aoc2022/Solution10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aoc2022/Solution10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670678309764</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add 2022 solution 10">
+      <created>1670683408693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670683408693</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -462,11 +465,6 @@
           <url>file://$PROJECT_DIR$/src/Aoc2022/Solution7.java</url>
           <line>26</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aoc2022/Solution10.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

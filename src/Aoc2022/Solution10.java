@@ -23,8 +23,6 @@ public class Solution10 {
         List<String> input = InputParser.getLinesAsListOfStrings("resources/2022/input10.txt");
         processInput(input);
         System.out.println("Total strengths: " + strengths.stream().reduce(Long::sum));
-        // should be 13140 for test input
-        // Should be 14420 for real input
 
         drawScreen();
     }
