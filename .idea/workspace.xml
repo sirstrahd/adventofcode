@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Add 2022 solution 8">
-      <change afterPath="$PROJECT_DIR$/resources/2022/input8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/2022/input8test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution8.java" afterDir="false" />
+    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="Add 2022 solution 9">
+      <change afterPath="$PROJECT_DIR$/resources/2022/input9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/2022/input9test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/2022/input9test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,33 +206,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution8">
-    <configuration name="Solution5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aoc2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution5" />
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aoc2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution9">
     <configuration name="Solution6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution6" />
       <module name="adventofcode" />
@@ -271,13 +246,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution9 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution9" />
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aoc2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution9" />
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aoc2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution9" />
+        <item itemvalue="Application.Solution9 (1)" />
         <item itemvalue="Application.Solution8" />
         <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.Solution6" />
-        <item itemvalue="Application.Solution5" />
-        <item itemvalue="Application.Solution5 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670454258890</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add 2022 solution 8">
+      <created>1670493776605</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670493776605</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -431,7 +439,8 @@
     <MESSAGE value="Add 2022 solution 6" />
     <MESSAGE value="Add 2022 solution 7" />
     <MESSAGE value="Add 2022 solution 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 2022 solution 8" />
+    <MESSAGE value="Add 2022 solution 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2022 solution 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
