@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="2022 Solution 12">
-      <change afterPath="$PROJECT_DIR$/resources/2022/input12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution12.java" afterDir="false" />
+    <list default="true" id="824e9ef0-878c-4ab0-a607-bea6d5e725f1" name="Default Changelist" comment="2022 Solution 13&#10;&#10;Includes some unit tests">
+      <change afterPath="$PROJECT_DIR$/resources/2022/input13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/2022/input13test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aoc2022/Solution13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Aoc2022/Solution13Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,9 +180,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/marcsallesnavarro/workspace/adventofcode/resources/2022&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -204,9 +212,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution12">
-    <configuration name="Solution12 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution12" />
+  <component name="RunManager" selected="Application.Solution13">
+    <configuration name="Solution13 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution13" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -218,8 +226,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution12 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution12" />
+    <configuration name="Solution13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution13" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -231,8 +239,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution12 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution12" />
+    <configuration name="Solution13Test.testNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -240,12 +247,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Aoc2022" />
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution13Test" />
+      <option name="METHOD_NAME" value="testNumbers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution12 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution12" />
+    <configuration name="Solution13Test.testRealCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -253,12 +263,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Aoc2022" />
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution13Test" />
+      <option name="METHOD_NAME" value="testRealCase2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution12" />
+    <configuration name="Solution13Test.testSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
@@ -266,17 +279,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Aoc2022" />
+      <option name="MAIN_CLASS_NAME" value="Aoc2022.Solution13Test" />
+      <option name="METHOD_NAME" value="testSample" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution12" />
-        <item itemvalue="Application.Solution12 (2)" />
-        <item itemvalue="Application.Solution12 (1)" />
-        <item itemvalue="Application.Solution12 (5)" />
-        <item itemvalue="Application.Solution12 (4)" />
+        <item itemvalue="Application.Solution13" />
+        <item itemvalue="Application.Solution13 (1)" />
+        <item itemvalue="JUnit.Solution13Test.testSample" />
+        <item itemvalue="JUnit.Solution13Test.testNumbers" />
+        <item itemvalue="JUnit.Solution13Test.testRealCase2" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670823375271</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2022 Solution 12">
+      <created>1670891439307</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670891439308</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -470,7 +494,8 @@
     <MESSAGE value="Remove expected outputs from code." />
     <MESSAGE value="2022 Solution 11" />
     <MESSAGE value="2022 Solution 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 Solution 12" />
+    <MESSAGE value="2022 Solution 13&#10;&#10;Includes some unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 Solution 13&#10;&#10;Includes some unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -489,6 +514,16 @@
           <url>file://$PROJECT_DIR$/src/Aoc2022/Solution11b.java</url>
           <line>30</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/Aoc2022/Solution13Test.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aoc2022/Solution13.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
